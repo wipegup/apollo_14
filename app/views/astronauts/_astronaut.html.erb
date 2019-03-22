@@ -1,0 +1,10 @@
+Name: <%=astronaut.name%>
+Age: <%=astronaut.age%>
+Job: <%=astronaut.job%>
+<div id=<%="total-time-#{astronaut.id}"%> >
+  <%=astronaut.total_time_in_space%>
+</div>
+
+<div id=<%="mission-info-#{astronaut.id}"%>>
+  <%=astronaut.missions_ordered.join(", ")%>
+</div>
